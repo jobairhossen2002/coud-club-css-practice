@@ -1,0 +1,147 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+nav{
+    height:700px;
+    background-image:url(../images/maxO_TVsaeZNlEunsplashmin1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav .box{
+    max-width:552px;
+    padding:30px 0;
+    background-color:rgba(252, 248, 248, 0.6);
+
+}
+nav .box .content{
+    padding: 115px 50px;
+}
+nav .box .content h1{
+    font-size:80px;
+    color:#F1C50E;
+}
+nav .box .content p{
+    font-size:22.1px;
+    padding:40px 0;
+    line-height:30px;
+}
+nav .box .content a{
+    background-color:#F1C50E;
+    padding:13px 30px;
+    color:black;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+nav .box .content a:hover{
+    background-color:#D9B10D;
+    color:white;
+}
+main section{
+    background-color:black;
+    color:white;
+}
+main section .container .content-two{
+    width:50%;
+    float:left;
+    padding-right:35px;
+}
+main section .container .content-two h1{
+    font-size:50px;
+    padding-top:95px;
+}
+main section .container .content-two h2{
+    font-size:70px;
+    color:#F1C50E;
+    padding:10px 0;
+}
+main section .container .content-two h3{
+    font-size:35px;
+    padding-bottom:30px;
+}
+main section .container .content-two p{
+    font-size:19px;
+    padding-bottom:200px;
+    line-height:30px;
+}
+main section .container .content-three{
+    width:50%;
+    float:left;
+    padding-left:35px;
+}
+main section .container .content-three .demo p{
+    padding-top:95px;
+    font-size:19px;
+    line-height:30px;
+    padding-bottom:50px;
+}
+main section .container .content-three h2{
+    font-size:70px;
+    color:#F1C50E;
+    padding:10px 0;
+}
+main section .container .content-three h3{
+    font-size:35px;
+    padding-bottom:30px;
+}
+main section .container .content-three p{
+    line-height:30px;
+    font-size:18px;
+}
+main .bg-image{
+    background-image:url(../images/pexelsphoto1351238.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+main .bg-image .container .content-four{
+    text-align: center;
+}
+main .bg-image .container .content-four h2{
+    font-size:50px;
+    padding-top:140px;
+}
+main .bg-image .container .content-four p{
+    font-size:20px;
+    padding:35px 0;
+}
+main .bg-image .container .content-four a{
+    display:inline-block;
+    background-color:#F1C50E;
+    padding:13px 30px;
+    color:black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom:120px;
+}
+main .bg-image .container .content-four a:hover{
+    background-color:#D9B10D;
+    color:white;
+}
+main .one .bg-color .container{
+    width:25%;
+    height:100%;
+    position:fixed;
+    background-color:#2CCCC4;
+}
+main .one .bg-color1{
+    width:75%;
+    padding:1rem;
+    background-color:#F1C50E;
+}
